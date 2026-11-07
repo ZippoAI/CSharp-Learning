@@ -14,7 +14,11 @@ namespace MyFirstProgram
             Console.Write("Bulbul"); // Does not hit enter at the end of the line
             Console.Beep(); // make a Beep sound
 
-            
+            // TO remove all garbange at the end of the program
+
+            Console.ReadLine(); // wait for user input before closing the console window
+
+
         }
     }
 }
